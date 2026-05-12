@@ -323,7 +323,11 @@
         const h = JSON.parse(localStorage.getItem('rmgm_h') || "[]");
         document.getElementById('histBody').innerHTML = h.map(i => `<tr><td>${i.d}</td><td>${i.n}</td><td>${i.s}</td></tr>`).join('');
     }
-
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
     window.onload = init;
 </script>
 </body>
