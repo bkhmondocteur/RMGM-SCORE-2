@@ -1,0 +1,15 @@
+{
+  "name": "RMGM SCORE 2",
+  "short_name": "RMGM S2",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
